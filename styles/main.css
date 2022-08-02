@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex__position {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: rgba(34, 34, 34, 1);
+  margin-bottom: 65px;
+}
+
+.header__menu {
+  height: 76px;
+}
+
+.menu__left__img__search {
+  margin-left: 41px;
+}
+
+.menu__right__img__cart,
+.menu__right__img__user {
+  margin-left: 31px;
+}
+
+.header__content {
+  background-color: #f1e4e6;
+}
+
+.header__content__main {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.header__content__main__title {
+  justify-content: center;
+  align-items: center;
+}
+
+.title__colored-box {
+  width: 12px;
+  height: 92px;
+  background-color: #f16d7f;
+}
+
+.title__colored-box {
+  margin-right: 16px;
+}
+
+.title__h1 {
+  font-family: Lato, serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.title__h1__bold {
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 58px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.title__h1__colored {
+  font-size: 37px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #f16d7f;
+}
+
+.main__card {
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card__1,
+.card__2,
+.card__3 {
+  min-height: 260px;
+  min-width: 360px;
+  text-align: center;
+  padding-top: 105px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.card__1 {
+  background: url('../image/card__1.jpg') no-repeat;
+}
+
+.card__2 {
+  background: url('../image/card__2.png') no-repeat;
+}
+
+.card__3 {
+  background: url('../image/card__3.png') no-repeat;
+}
+
+.card__4 {
+  background: url('../image/card__4.png') no-repeat;
+  width: 1140px;
+  height: 180px;
+  text-align: center;
+  padding-top: 65px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+}
+
+.card__text-color {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #f16d7f;
+}
